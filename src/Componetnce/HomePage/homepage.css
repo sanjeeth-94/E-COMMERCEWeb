@@ -1,0 +1,92 @@
+/* Homepages.css */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-container {
+    height: 12vh;
+    width: 100vw;
+}
+
+.content-container {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+    overflow: auto;
+    padding: 0px;
+}
+
+.footer-container {
+    padding: 10px;
+    height: 3vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.logo-imge {}
+
+.menue-ItemsButton2 {
+    width: 50px
+}
+
+@media (max-width: 898px) {
+
+    .navbar-container {
+        height: 18vh;
+    }
+    .menue-ItemsButton2 {
+        width: 130px
+    }
+    
+}
+@media (max-width: 598px) {
+    .menue-ItemsButton2 {
+        width: 50px
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .navbar-container,
+    .footer-container {
+        height: 10vh;
+    }
+
+    .content-container {
+        height: 70vh;
+    }
+
+    .footer-container {
+        height: 6vh;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .navbar-container,
+    .footer-container {
+        height: 10vh;
+    }
+
+    .content-container {
+        height: 60vh;
+    }
+
+    .footer-container {
+        height: 6vh;
+
+    }
+    .footer-container {
+        padding: 10px;
+        height: 6vh;
+    }
+    
+}

@@ -1,0 +1,25 @@
+
+/* body {
+  font-family:'Times New Roman', 
+} */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Only show the vertical scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Show the vertical scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+/* The following properties will only work in Firefox */
+/* Set the scrollbar width and color to transparent */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(240, 238, 238) transparent;
+}

@@ -1,0 +1,223 @@
+/* .header {
+    top: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px;
+    position: sticky;
+    z-index: 10;
+    width: 100vw;
+    height: 8vh;
+}
+
+.header .w-312 {
+    width: 25%;
+} */
+
+nav {}
+
+.nav-Card {
+    height: 12vh;
+    box-shadow: 0 0px 6px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px;
+    width: 100.5vw;
+    position: sticky;
+    background-color: #efecec;
+}
+
+.logo-imge {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.logo-imge img {
+    width: 150px;
+    height: 90px;
+    margin-top: -20px
+}
+
+.responsive-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+
+}
+
+.responsive-list-item {
+    width: auto;
+    /* min-width: 140px; */
+    flex: 1;
+}
+
+.menue-Items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menue-ItemsButton {
+    width: 150px;
+    color: 'black'
+}
+
+
+@media (max-width: 1515px) {
+    .menue-ItemsButton {
+        width: 120px;
+        color: 'black'
+    }
+}
+
+
+@media (max-width: 1270px) {
+
+    .logo-imge {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1044px) {
+    .menue-ItemsButton {
+        width: 100px;
+        color: 'black'
+    }
+}
+
+@media (max-width: 1196px) {
+    .logo-imge img {
+        width: 120px;
+        height: 80px;
+        margin-top: -20px
+    }
+}
+
+@media (max-width: 898px) {
+
+    .nav-Card {
+        height: 18vh;
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    .nav-Card {
+        height: 10vh;
+    }
+
+    .logo-imge {
+        display: none;
+    }
+
+    .responsive-list {
+        display: none;
+    }
+
+    .responsive-list-item {
+        display: none;
+    }
+
+    .menue-Items {
+        display: none;
+    }
+
+    .menue-ItemsButton {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 904px) {
+    .logo-imge {
+        display: none;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .menue-Items {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .nav,
+    .nav-Card {
+        height: 10vh;
+    }
+
+    .logo-imge {
+        display: none;
+    }
+
+    .responsive-list {
+        display: none;
+    }
+
+    .responsive-list-item {
+        display: none;
+    }
+
+    .menue-Items {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nav-Card {
+        height: 10vh;
+    }
+
+    .logo-imge {
+        display: none;
+    }
+
+    .menue-Items {
+        display: none;
+    }
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.menu-button {
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 150px;
+    display: none;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
